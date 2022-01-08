@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&amp;display=swap&amp;subset=cyrillic");
+body{
+	text-transform:uppercase; letter-spacing:2px; font-weight:200;
+}
+h1, h2, h3, h4, h5, h6 {
+	color:navajowhite;
+	font-family: "Rubik", sans-serif;
+	font-weight: 600;
+	margin: 20px 0;
+  }
+  h1 {
+	font-size: 50px;
+	word-spacing: 5mm;
+	font-style: italic ;
+  }
+  
+  h2 {
+	font-size: 28px;
+  }
+  
+  h3 {
+	font-size: 24px;
+  }
+  
+  h4 {
+	font-size: 18px;
+  }
+  p{
+	font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+  a {
+	color: navajowhite;
+	outline: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+  }
+#background{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/TH25-Ocean_Light-detail-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#container{position:absolute; top:0; left: 0; width: 100%; min-height: 100%; }
+	.logowrap{ position: absolute; top: 50%;  left: 50%;  transform: translate(-50%, -50%); margin-top: -40px; margin-left: auto; margin-right: auto; max-width: 700px; width: 95%; box-sizing: border-box; display: block; } 
+	.logowrap img{ width:100%; height: auto; }
+	#content{ width: 100%; box-sizing: border-box; padding:0 13px 80px 13px; text-align: center; color: #fff; }
+	/**/
+	.logowrap, #top, #letter, #video, #release-video .video{ margin-bottom: 55px;}
+	#top, #letter, #video .video, #release-video .video { max-width: 655px; width: 100%; margin-left: auto; margin-right: auto; display: block; }
+	#top img, #letter img{ width: 100%; height: auto; }
+	#letter img{box-shadow: 8px 8px 14px #24343b;}
+	/**/
+	#social{ margin-top:30px; COLOR:#fff;}
+	#social a, #follow a, #featured a, #release a { color:#fff; text-decoration: none;}
+	#social .social-links, #follow .social-links, #featured .links, #release .links { margin-top:10px;}
+	#social .social-links a, #follow .social-links a, #featured .dsps a, #release .dsps a { display: inline-block; color: #fff; font-size: 26px; transition:all 320ms cubic-bezier(0.215, 0.610, 0.355, 1.000) 0ms; }
+	#social .social-links a:hover, #follow .social-links a:hover, #featured .dsps a:hover, #release .dsps a:hover{ color:#87CEEB; }
+	.social-links a+a, #featured .dsps a+a, #release .dsps a+a {margin-left:12px;}
+	
+	#social a svg, #featured a svg, #release a svg  { width:30px; height: auto; fill:#fff; vertical-align: bottom; transition:all 320ms cubic-bezier(0.215, 0.610, 0.355, 1.000) 0ms;  }
+	#featured a:hover svg, #release a:hover svg{ fill:#87CEEB !important; }
+	/**/
+	#video a, #release-video a, #featured .cta{ display: block; position: relative; margin-left: auto; margin-right: auto; margin-bottom: 50px; }
+	#video .play, #release-video .play{ font-size:2.3rem; position: absolute; left: 50%; top:50%; transform: translate(-50%,-50%); /*top: 15px; right: 20px;*/ color: rgba(241,187,64,.4); z-index: 10; transition:all 320ms cubic-bezier(0.215, 0.610, 0.355, 1.000) 0ms; }
+	#video a:hover .play, #release-video a:hover .play{ color: rgba(255,255,255,.6);}
+	#video .video, #release-video .video{ transition:all 320ms cubic-bezier(0.215, 0.610, 0.355, 1.000) 0ms;  }
+	/**/
+	.cta{ max-width: 300px; text-decoration:none; color:#f2a900 !important; cursor:pointer; text-transform:uppercase; letter-spacing:2px; font-weight:200;  display:inline-block; overflow:hidden; transition:all 320ms cubic-bezier(0.215, 0.610, 0.355, 1.000) 0ms; font-size:18px; padding: 9px 0;  width: 90%; border:1px solid rgba(242,169,0,0.45); }	
+	.cta:hover{background-color:#87CEEB; color: #000 !important;}
+	.cta+.cta{margin-left:20px;}
+	#follow{margin:25px auto; color: #fff;}
+	
+	#footer {background-color:#000; position:absolute; top: 100%; left:0; width: 100%; box-sizing: border-box; padding: 12px; text-transform: uppercase; letter-spacing: 1px; font-size: 11px; text-align: center;}
+	#footer a{color:#fff;text-decoration: none;display: inline-block; margin: 0 3px;}
+	/**/
+	.headline{font-size:1.85em; }
+	.open-sans{font-family: 'Open Sans', sans-serif; font-weight:300;}
+	/**/
+	
+	.logo-30{ margin-bottom:20px;}
+	.dsps {}
+	.dsps .cta{ display:block;  margin-bottom: 10px; margin-left: auto; margin-right: auto; }
+	.legal{font-size:.68em; width:100%; margin: 6px auto; max-width: 500px; text-transform: none; color:#f2a900;}
+
+	/***/
+	#release {position: absolute; bottom: 30px;  left: 50%;  transform: translate(-50%, 0%); width: 100%; box-sizing: border-box; padding: 0 12px;}
+	#release h2{ margin-top: 0; margin-bottom: 0; font-size: 1.9em; font-weight: normal; }
+	#top .dsps{margin-top:30px;}
+	#release-video, #featured{ margin-bottom:55px; }
+	/**/
+	#home{ position: relative; width: 100%; height: 100vh; margin-bottom: 40px;}
+	#home .dsps{margin-bottom: 20px;}
+	/***/
+	#wwa-div{  box-sizing: border-box; max-width: 1000px; margin: auto; padding: 0 12px; margin-bottom: 70px;}
+	#wwa-div img{width:70%; height: auto; max-width: 600px; margin-bottom: 30px;}
+	#wwa-div p {text-transform:none; color: #fff; padding-bottom:30px;}
+	a#wwa{display:block;}
+	/***/
+	
+	@media (orientation:landscape) and (max-height:485px){ #container, #background {min-height:485px;}	}
+	@media(max-width:900px){ .cta{display: block; margin-left: auto; margin-right: auto; margin-bottom: 10px;} .cta+.cta{margin-left:auto;} }
+	@media(max-width:320px){.dsps a+a{margin-left:7px !important;}}
+	@media(orientation:landscape) and (max-height:550px){#home{min-height:550px;}}
+	@media(orientation:portrait){.logowrap{margin-top:-75px;} #release{bottom:55px;}}
